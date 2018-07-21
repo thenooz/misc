@@ -1,7 +1,7 @@
 import os
 
 
-directory = input()
+directory = input("Please provide the path: ")
 
 lst = os.listdir(directory)
 for i in [l for l in lst if l.endswith('.vtt')]:
